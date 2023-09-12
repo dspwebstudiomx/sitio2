@@ -1,0 +1,24 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 280px;
+  padding: 2em;
+  border: 2px solid #000;
+  box-shadow: 10px 10px 0px 0px rgb(0, 0, 0);
+  background-color: #f1f1f1;
+}
+.card__img {
+  border-radius: 0.4em 0.4em 0 0;
+  border: none;
+}
+.card__title {
+  font-family: "Handjet", cursive;
+  font-size: 32px;
+  letter-spacing: 2px;
+  text-align: center;
+}
+.card__text {
+  font-size: 0.8em;
+  margin-bottom: 2em;
+}/*# sourceMappingURL=card.css.map */

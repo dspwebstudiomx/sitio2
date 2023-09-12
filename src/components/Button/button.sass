@@ -1,0 +1,54 @@
+$button_icon_size_scale: 1.2
+$button_icon_text_size: 0.7em
+    
+.button
+    display: flex
+    align-items: center
+    justify-content: center
+    gap: 10px
+    padding: 1.3em 2em
+    cursor: pointer
+    width: 100%
+    font-size: $button_icon_text_size
+    text-transform: uppercase
+    text-decoration: none
+    @media screen and (min-width:600px)
+        height: 70px
+    @media screen and (min-width:1024px)
+        height: 60px
+        font-size: 1em
+        gap: 20px
+
+    &__svg
+        transform: scale(1.2)
+        @media screen and (min-width:1024px)
+            transform: scale(2)
+
+
+
+    &--green
+        background-color: greenyellow
+        color: black
+        &:hover 
+            background-color: rgb(110, 174, 13)
+            color: black
+
+    &--yellow 
+        background-color: rgb(247, 247, 1)
+        color: black
+        &:hover 
+            background-color: rgb(194, 194, 26)
+
+    &--black
+        background-color: rgba(0,0,0,1)
+        color: #fafafa
+        &:hover 
+            background-color: rgba(254,254,254,1)
+            color: rgba(0,0,0,1)
+
+    &--white
+        background-color: rgba(254,254,254,1)
+        color: rgba(0,0,0,0.8)
+        &:hover 
+            background-color: rgba(0,0,0,0.8)
+            color: rgba(254,254,254,1)

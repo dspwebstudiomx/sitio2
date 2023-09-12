@@ -1,0 +1,27 @@
+@import "components/Button/button.css";
+@import "components/Hero/hero.css";
+@import "components/Cards/cards.css";
+@import 'animate.css';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Handjet', cursive
+}
+
+p {
+  font-family: 'Poppins', sans-serif;
+  color: #2b2a2a
+}
+
+h2 {
+  font-size: 3em;
+}

@@ -1,0 +1,18 @@
+@import 'Card/card'
+
+.cards
+    display: grid
+    margin: auto
+    row-gap: 50px
+    align-items: center
+    justify-content: center
+    height: auto
+    padding: 6em 0
+    @media screen and (min-width:600px)
+        width: 80%
+        margin: auto
+        grid-template-columns: repeat(2,1fr)
+    @media screen and (min-width:1024px)
+        width: 920px
+        grid-template-columns: repeat(3,1fr)
+

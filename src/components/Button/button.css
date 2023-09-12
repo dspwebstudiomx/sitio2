@@ -1,0 +1,63 @@
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 1.3em 2em;
+  cursor: pointer;
+  width: 100%;
+  font-size: 0.7em;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+@media screen and (min-width: 600px) {
+  .button {
+    height: 70px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .button {
+    height: 60px;
+    font-size: 1em;
+    gap: 20px;
+  }
+}
+.button__svg {
+  transform: scale(1.2);
+}
+@media screen and (min-width: 1024px) {
+  .button__svg {
+    transform: scale(2);
+  }
+}
+.button--green {
+  background-color: greenyellow;
+  color: black;
+}
+.button--green:hover {
+  background-color: rgb(110, 174, 13);
+  color: black;
+}
+.button--yellow {
+  background-color: rgb(247, 247, 1);
+  color: black;
+}
+.button--yellow:hover {
+  background-color: rgb(194, 194, 26);
+}
+.button--black {
+  background-color: rgb(0, 0, 0);
+  color: #fafafa;
+}
+.button--black:hover {
+  background-color: rgb(254, 254, 254);
+  color: rgb(0, 0, 0);
+}
+.button--white {
+  background-color: rgb(254, 254, 254);
+  color: rgba(0, 0, 0, 0.8);
+}
+.button--white:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: rgb(254, 254, 254);
+}/*# sourceMappingURL=button.css.map */

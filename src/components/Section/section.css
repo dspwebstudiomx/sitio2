@@ -1,0 +1,13 @@
+/* OK */
+.section {
+  background-color: rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  row-gap: 40px;
+  padding: 5em 2em;
+}
+@media screen and (min-width: 1024px) {
+  .section {
+    padding: 5em 0;
+  }
+}/*# sourceMappingURL=section.css.map */
