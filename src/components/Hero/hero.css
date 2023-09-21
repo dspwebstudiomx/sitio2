@@ -3,7 +3,7 @@
 }
 .hero__container {
   margin: auto;
-  height: 100vh;
+  height: 60vh;
   display: grid;
   grid-template-columns: 70% auto;
   justify-content: center;
@@ -46,9 +46,9 @@
 .hero__button__section {
   display: flex;
   flex-direction: column;
-  width: 60%;
+  width: 100%;
   margin: 1em auto 0;
-  gap: 1em;
+  gap: 2em;
 }
 @media screen and (min-width: 768px) {
   .hero__button__section {

@@ -1,11 +1,13 @@
-import ArticleCard from "../ArticleCard/ArticleCard"
+/* eslint-disable react/prop-types */
 import './section.css'
 
-const Section = () => {
+export default function Section({ id, title, contenedor, children }) {
     return (
-        <section className='section'>
-            <ArticleCard />
-        </section>
+        <section id={id} className='section'>
+            <h2 className='section__title'>{title}</h2>
+            <div className={contenedor}>
+                {children}
+            </div>
+        </section >
     )
 }
-export default Section

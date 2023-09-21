@@ -10,9 +10,36 @@
 }
 @media screen and (min-width: 600px) {
   .article {
+    width: 80%;
+    margin: auto;
+    grid-template-columns: 1fr 1fr;
+    padding: 3em;
+  }
+}
+.article__content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+@media screen and (min-width: 768px) {
+  .article {
+    width: 80%;
+    margin: auto;
+    grid-template-columns: 1fr 1fr;
+    padding: 3em;
+  }
+}
+.article__content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+@media screen and (min-width: 1024px) {
+  .article {
     width: 920px;
     margin: auto;
     grid-template-columns: 1fr 1fr;
+    padding: 3em;
   }
 }
 .article__content {

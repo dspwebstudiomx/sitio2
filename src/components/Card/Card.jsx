@@ -1,4 +1,5 @@
 import { BiSearchAlt } from 'react-icons/bi';
+import './card.css'
 
 const Card = () => {
     return (

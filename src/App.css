@@ -1,8 +1,6 @@
-@import "components/Button/button.css";
-@import "components/Hero/hero.css";
-@import "components/Cards/cards.css";
+@import './components/Button/button.css';
+@import './components/Hero/hero.css';
 @import 'animate.css';
-
 * {
   margin: 0;
   padding: 0;
@@ -14,14 +12,118 @@ h2,
 h3,
 h4,
 h5 {
-  font-family: 'Handjet', cursive
+  font-family: "Handjet", cursive;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 p {
-  font-family: 'Poppins', sans-serif;
-  color: #2b2a2a
+  font-family: "Poppins", sans-serif;
+  color: #2b2a2a;
+  text-wrap: balance;
 }
 
 h2 {
   font-size: 3em;
 }
+
+a {
+  text-decoration: none;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.container-1 {
+  display: grid;
+  margin: auto;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  width: 100%;
+}
+@media screen and (min-width: 600px) {
+  .container-1 {
+    width: 100%;
+    margin: auto;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .container-1 {
+    width: 920px;
+  }
+}
+
+.container-2 {
+  display: grid;
+  margin: auto;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+}
+@media screen and (min-width: 600px) {
+  .container-2 {
+    width: 80%;
+    margin: auto;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (min-width: 1024px) {
+  .container-2 {
+    width: 920px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.container-3 {
+  display: grid;
+  margin: auto;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+}
+@media screen and (min-width: 600px) {
+  .container-3 {
+    width: 80%;
+    margin: auto;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (min-width: 1024px) {
+  .container-3 {
+    width: 920px;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.container-4 {
+  display: grid;
+  margin: auto;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+}
+@media screen and (max-width: 677px) {
+  .container-4 {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+@media screen and (min-width: 678px) {
+  .container-4 {
+    width: 80%;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 60px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .container-4 {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}/*# sourceMappingURL=App.css.map */

@@ -1,0 +1,88 @@
+@import './components/Button/button.css'
+@import './components/Hero/hero.css'
+@import 'animate.css'
+
+
+* 
+  margin: 0
+  padding: 0
+  box-sizing: border-box
+
+
+h1,
+h2,
+h3,
+h4,
+h5 
+  font-family: 'Handjet', cursive
+
+html
+  scroll-behavior: smooth
+
+
+p 
+  font-family: 'Poppins', sans-serif
+  color: #2b2a2a
+  text-wrap: balance
+
+
+h2 
+  font-size: 3em
+
+
+a
+  text-decoration: none
+
+
+.text-center
+  text-align: center
+
+// Containers
+
+@mixin containerProperties
+  display: grid
+  margin: auto
+  gap: 30px
+  align-items: center
+  justify-content: center
+  height: auto
+
+.container-1
+  @include containerProperties
+  width: 100%
+  @media screen and (min-width:600px)
+      width: 100%
+      margin: auto
+  @media screen and (min-width:1024px)
+      width: 920px
+
+.container-2
+  @include containerProperties
+  @media screen and (min-width:600px)
+      width: 80%
+      margin: auto
+      grid-template-columns: repeat(2,1fr)
+  @media screen and (min-width:1024px)
+      width: 920px
+      grid-template-columns: repeat(2,1fr)
+
+.container-3
+  @include containerProperties
+  @media screen and (min-width:600px)
+      width: 80%
+      margin: auto
+      grid-template-columns: repeat(2,1fr)
+  @media screen and (min-width:1024px)
+      width: 920px
+      grid-template-columns: repeat(3,1fr)
+
+.container-4
+  @include containerProperties
+  @media screen and (max-width:677px)
+      grid-template-columns: repeat(1,1fr)
+  @media screen and (min-width:678px)
+      width: 80%
+      grid-template-columns: repeat(2,1fr)
+      row-gap:60px
+  @media screen and (min-width:1024px)
+      grid-template-columns: repeat(4,1fr)

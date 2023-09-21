@@ -10,9 +10,28 @@
     box-shadow: 10px 10px 0px 0px rgba(0,0,0,1)
     background-color: #f1f1f1
     @media screen and (min-width:600px)
+        width: 80%
+        margin: auto
+        grid-template-columns: 1fr 1fr
+        padding: 3em
+    &__content
+        display: flex
+        flex-direction: column
+        gap:20px
+    @media screen and (min-width:768px)
+        width: 80%
+        margin: auto
+        grid-template-columns: 1fr 1fr
+        padding: 3em
+    &__content
+        display: flex
+        flex-direction: column
+        gap:20px
+    @media screen and (min-width:1024px)
         width: 920px
         margin: auto
         grid-template-columns: 1fr 1fr
+        padding: 3em
     &__content
         display: flex
         flex-direction: column
