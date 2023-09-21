@@ -10,8 +10,8 @@ const Hero = () => {
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi in error atque provident laboriosam eligendi dolorem dolore consequatur nam? At!</p>
                     <br />
                     <div className="hero__button__section">
-                        <Link activeClass="active" to="Servicios" spy={true} smooth={true} offset={100} duration={500} className='button button--black'>Servicios</Link>
-                        <Link activeClass="active" to="Portafolio" spy={true} smooth={true} offset={100} duration={500} className='button button--white'>Portafolio</Link>
+                        <Link activeClass="active" to="Servicios" spy={true} smooth={true} offset={0} duration={500} className='button button--black'>Servicios</Link>
+                        <Link activeClass="active" to="Portafolio" spy={true} smooth={true} offset={0} duration={500} className='button button--white'>Portafolio</Link>
                     </div>
 
                 </div>

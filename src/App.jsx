@@ -16,14 +16,14 @@ function App() {
         <ArticleCard />
       </Section>
 
-      <Section id='Servicios' title='Servicios' contenedor='container-1'>
+      <Section id='Servicios' title='Servicios' contenedor='container-2'>
         <Card />
         <Card />
         <Card />
         <Card />
       </Section>
 
-      <Section id='Portafolio' title='Portafolio' contenedor='container-2'>
+      <Section id='Portafolio' title='Portafolio' contenedor='container-4'>
         <CardPhotoWithTitle
           title='Rosalavanda'
           backgroundImage='./src/assets/placeholder.webp'

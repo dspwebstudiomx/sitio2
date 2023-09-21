@@ -11,7 +11,7 @@
   text-transform: uppercase;
   text-decoration: none;
   letter-spacing: 1px;
-  font-weight: bold;
+  font-weight: 500;
   margin: auto;
 }
 @media screen and (min-width: 600px) {
